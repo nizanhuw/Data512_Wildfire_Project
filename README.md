@@ -15,7 +15,7 @@ The source code folder contains the following ipynb files to run in a specific o
 - Then secondly run: AQI_Request_Howard.ipynb
   This file contains the .ipyb. It requests a daily summary view count of an AQI page from 1984 to the present, creating particulate_aqi.csv in 
   preliminary data. In addition, it reads in coeur_smoke_estimate_df.csv to create visuals to compare the AQI result and the smoke estimations for  
- predicted future years using linear regression. 
+  predicted future years using linear regression found in report results directory. 
   
 - Per assignment instructions, please read Common_analyis_part1_reflection.pdf in the report results directory.
   The report contains overall findings from the visuals, thoughts, and collaboration feedback. 
