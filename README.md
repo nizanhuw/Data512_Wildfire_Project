@@ -73,7 +73,7 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Intermediate_data folder 
 #### Preliminary_downloads
 
-- USGS_Wildland_Fire_Combined_Dataset.json [Includes more than 15 + columns dictated columns collected] *Date Description taken from Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog*`Columns`
+- **USGS_Wildland_Fire_Combined_Dataset.json** [Includes more than 15 + columns dictated columns collected] *Date Description taken from Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog*`Columns`
 
 >`OBJECTID`: Unique identification for the polygon and its attributes.
 >
@@ -91,7 +91,7 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`GIS_Hectares`: The GIS calculated hectares of the fire polygon 
 >
->`Listed_Fire_Types`: The number of features that contributed the specific fire type are in parentheses after the fire type.
+>`Listed_Fire_Types`: The number of features that contributed to the specific fire type are in parentheses after the fire type.
 >
 >`Circle_Flag`:An ArcGIS Tabulate Intersection Tool was used to identify areas that burned with >10% overlap of the current fire within 1 or 2 years of the current burn 
 >
@@ -102,7 +102,7 @@ The source code folder contains the following ipynb files to run in a specific o
 >`Shape_Area`: Automatically calculated polygon area in square meters
 
 
-- Idaho_Coeur_d'Alene_Fires.csv `Columns`
+- **Idaho_Coeur_d'Alene_Fires.csv `Columns`**
 
 >`Assigned_Fire_Type`:  assigned fire type: Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire
 >
@@ -124,11 +124,15 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
 
-
-
+- **Idaho_nacis_code72.csv**
+  
+- **NAICS_71.csv**
+- **Real_GDP_NAICS72.csv**
+- **real_GDP_NAICS71.csv**
+  
 ## Data_Results folder
 #### Created_for_analysis and saved for visuals and regression
-- coeur_smoke_estimate_df.csv : `Columns`
+- **coeur_smoke_estimate_df.csv** : `Columns`
 >`Fire_Year`: the object from 163 to 2022 of wildfires
 >
 >`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
@@ -139,10 +143,14 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
 
-- particulate_aqi.csv: `Columns`
+- **particulate_aqi.csv**: `Columns`
 >` year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
 >
 >`AQI`: the list of daily AQIs as n float 64
+
+- n
+- n
+  
 
 ## Report Results contain the following files: 
 
@@ -154,7 +162,7 @@ This file contains the total acres burned per year from Idaho, Coeur d'Alene.png
 - **Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png'**:
 This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
 - **'Common_analyis_part1_reflection.pdf**:
-  This pdf file contains the Common_analyis_part1_reflectio
+  This pdf file contains the Common_analyis_part1_reflection
   
 #### Common Analysis Part 3 implementation 
 * Add
