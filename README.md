@@ -73,7 +73,7 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Intermediate_data folder 
 #### Preliminary_downloads
 
-- **USGS_Wildland_Fire_Combined_Dataset.json** [Includes more than 15 + columns dictated columns collected]
+- **USGS_Wildland_Fire_Combined_Dataset[0][1][2].json** [Includes more than 15 + columns dictated columns collected] broken down into three files because of space constraints
   Date Description is taken from: Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog. `Columns`:
 
 >`OBJECTID`: Unique identification for the polygon and its attributes.
