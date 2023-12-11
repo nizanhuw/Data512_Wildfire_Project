@@ -238,18 +238,20 @@ This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
   This pdf file contains the Common_analyis_part1_reflection
   
 #### Common Analysis Part 3 implementation 
-* Add
-- Common analysis presentation. pptx
-This file contains
-- Common analysis part 4 Report
-This file contains
-NAICS72_residuals.png
-13 hours ago
-NAICS_71_EDA.png
-13 hours ago
-NAICS_71_regression.png
-13 hours ago
-NAICS_72_regression.png
+- **Common_Analysis_part3_Howard_final1.pptx**
+  This file contains the results presented in a Pecha Kucha attempt
+- **howard_project_part2.pdf**
+  This file contains the written report of the preliminary plan and hypothesis 
+- **final_report.pdf**
+  Contains the hypothesized results connection to human center data science and results of analysis
+- **NAICS72_residuals.png**
+  The visual showcasing limitation results of regression on smoke estimates 
+- **NAICS_71_EDA.png**
+  The Visual showcasing the Exploratory analysis from NACIS 71 data set
+- **NAICS_71_regression.png**
+  The Visual showcasing of the regression results in arts, entertainment and recreation 
+- **NAICS_72_regression.png**
+  The visual showcasing the regression results in accommodation and food services 
 
 ## Limitations 
 -  AQI particulate and gaseous (not used because it had only 10 rows) contained very little to no data, so averages were filed where null positions were seen.
