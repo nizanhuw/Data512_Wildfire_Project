@@ -35,7 +35,7 @@ This open-source information provided by https://www.airnow.gov/
 - I also used  GEEKS FOR GEEKS as an MLA citation:
 “Matplotlib Tutorial.” GeeksforGeeks, 22 Jun. 2023. https://www.geeksforgeeks.org/matplotlib-tutorial/#. Accessed 7 Nov. 2023. 
 
-- For the Data Descriptions from USGS_Wildland_Fire_Combined_Dataset.json
+- For the Meta-data Descriptions from USGS_Wildland_Fire_Combined_Dataset.json
 “Combined Wildland Fire Datasets for the United States and Certain Territories, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog.” Www.sciencebase.gov, www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81. Accessed 11 Dec. 2023.
 
 ‌
@@ -46,12 +46,12 @@ This open-source information provided by https://www.airnow.gov/
 ### For Common Analysis Part 1 
 Please utilize the link to the ipynb file running all modules in the Source code folder:
 
-The source code folder contains the following ipynb files to run in a specific order:
+The `source code folder` contains the following ipynb files to run in a specific order:
 - Reader.py: Instructor's python `object` function from the Wildfire.zip to read in USGS GEO called and imported in     
   Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
   
 - Please run this first: Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
-  This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset.json in the intermediate_data folder.
+  This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset[0][1][3].json in the intermediate_data folder.
   This collects information from these files to produce coeur_smoke_estimate_df.csv in the Data_Results folder. Creates smoke estimations
   for Coeur D'Alene moke estimations and files used to collect an AQI. 
   
@@ -64,11 +64,19 @@ The source code folder contains the following ipynb files to run in a specific o
   The report contains overall findings from the visuals, thoughts, and collaboration feedback. 
   
 ### For Common Analysis Part 2-3 (Implementation)
-- Please Run .... file in the source code results
-  This file contains
+**Description**: This contains the results of looking into tourism and its impact on employment in Idaho and the economy.
+
+- Please run part 2_implementation.ipynb in the source code folder. 
+  This file contains the data mining pre-processing steps for the following csv files: `Idaho_nacis_code72.csv`, `NAICS_71.csv`, `Real_GDP_NAICS72.csv`, and   `real_GDP_NAICS71.csv` in the intermediate_data folder. Merging with the 'coeur_smoke_estimate_df.csv' to produce two csv files for further analysis: `cleaned_NACIS72_df.csv` and `NAICs71_cleaned.csv`, all found in the Data_Results folder.
+
+- Secondly, run: Regression_Analysis_visuals.ipynb 
+  This file contains the Exploratory analysis of the data, Multi-Linear Regression, and the resulting visuals. Based on the hypothesis: Do smoke estimates impact employment in food accommodation services and art entertainment and recreation sectors for tourism? To access, import the path from' cleaned_NACIS72_df.csv` and `NAICs71_cleaned.csv`, all found in the Data_Results folder.
   
-- Please read the .pdf in the report results folder
-  This file contains
+- Per assignment instructions, please read Common_Analysis_part3_Howard_final1.pptx and howard_project_part2.pdf in the Report_Results directory, subsequent hypothesis connection to human center design and planning.
+
+- final_report.pdf in Report_Results folder.
+  The report contains overall findings from the visuals, regression, hypothesis results, and limitations. 
+  
 
 ## Intermediate_data folder 
 #### Preliminary_downloads
@@ -232,9 +240,16 @@ This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
 #### Common Analysis Part 3 implementation 
 * Add
 - Common analysis presentation. pptx
-This file contains 
+This file contains
 - Common analysis part 4 Report
-This file contains 
+This file contains
+NAICS72_residuals.png
+13 hours ago
+NAICS_71_EDA.png
+13 hours ago
+NAICS_71_regression.png
+13 hours ago
+NAICS_72_regression.png
 
 ## Limitations 
 -  AQI particulate and gaseous (not used because it had only 10 rows) contained very little to no data, so averages were filed where null positions were seen.
