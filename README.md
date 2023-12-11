@@ -75,16 +75,16 @@ Idaho_Coeur_d'Alene_Fires[2].json
 -  Reader.py: Instructor's python object class from the Wildfire.zip to read in USGS GEO
 
 #### Created_for_analysis
-- coeur_smoke_estimate_df.csv :
-`Fire_Year`: the object from 163 to 2022 of wildfires 
-`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
-`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
-`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
-`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
+- coeur_smoke_estimate_df.csv : Columns
+>`Fire_Year`: the object from 163 to 2022 of wildfires 
+>`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
+>`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
+>`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
+>`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
 
 - particulate_aqi.csv
-`year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
- `AQI`: the list of daily AQIs as n float 64
+>`year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
+>`AQI`: the list of daily AQIs as n float 64
 
 ## Report Results contain the following files: 
 
