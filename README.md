@@ -42,6 +42,9 @@ I also used  GEEKS FOR GEEKS as an MLA citation:
 Please utilize the link to the ipynb file running all modules in the Source code folder:
 
 The source code folder contains the following ipynb files to run in a specific order:
+- Reader.py: Instructor's python `object` function from the Wildfire.zip to read in USGS GEO called and imported in     
+  Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
+  
 - Please run this first: Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
   This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset.json in the intermediate_data folder.
   This collects information from these files to produce coeur_smoke_estimate_df.csv in the Data_Results folder. Creates smoke estimations
@@ -65,14 +68,57 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Intermediate_data folder 
 #### Preliminary_downloads
 
-- USGS_Wildland_Fire_Combined_Dataset.json
-- Idaho_Coeur_d'Alene_Fires.csv 
-- subsets:
-Idaho_Coeur_d'Alene_Fires[o].json
-Idaho_Coeur_d'Alene_Fires[1].json
-Idaho_Coeur_d'Alene_Fires[2].json
+- USGS_Wildland_Fire_Combined_Dataset.json [Includes more than 35 + columns dictated columns collected] *Date Description taken from USGS MEDA_DATA in MLA CITAION* `Columns`
+  >`OBJECTID`: Unique identification for the polygon and it's attributes.
+>
+>`USGS_Assigned_ID`: Assigned unique identification for the polygon and it's attributes. 
+>
+>`Assigned_Fire_Type`:  assigned fire type : Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire
+>
+>`Fire_Year`: The calendar year when the dataset creators determined the fire occurred
+>
+>`Fire_Polygon_Tier`: The tier from which the fire polygon was generated. 
+>
+>`Fire_Attribute_Tiers`: A list of all tiers where a polygon intersects the current fire perimeter in space and time
+>
+>`GIS_Acres`: The GIS calculated acres of the fire polygon.
+>
+>`GIS_Hectares`: The GIS calculated hectares of the fire polygon 
+>
+>`Listed_Fire_Types`: The number of features that contributed the specific fire type are in parentheses after the fire type.
+>
+>`Circle_Flag`:An ArcGIS Tabulate Intersection Tool was used to identify areas that burned with >10% overlap of the current fire within 1 or 2 years of the current burn 
+>
+>`Circleness_Scale`: A measure of a polygon's similarity to a true circle. calculated using the Shape_Length and Shape_Area fields.
+>
+>`Shape_Length`: Automatically calculated perimeter length in meters
+>
+>`Shape_Area`: Automatically calculated polygon area in square meters
 
-> Reader.py: Instructor's python `object` function from the Wildfire.zip to read in USGS GEO
+
+- Idaho_Coeur_d'Alene_Fires.csv `Columns`
+
+>`Assigned_Fire_Type`:  assigned fire type: Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire
+>
+>`GIS_Hectares`: The GIS calculated hectares of the fire polygon 
+>
+>`Circle_Flag`:An ArcGIS Tabulate Intersection Tool was used to identify areas that burned with >10% overlap of the current fire within 1 or 2 years of the current burn 
+>
+>`Circleness_Scale`: A measure of a polygon's similarity to a true circle. calculated using the Shape_Length and Shape_Area fields.
+>
+>`Shape_Length`: Automatically calculated perimeter length in meters
+>
+>`Shape_Area`: Automatically calculated polygon area in square meters
+>
+>`Fire_Year`: the object from 163 to 2022 of wildfires
+>
+>`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
+>
+>`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
+>
+>`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
+
+
 
 ## Data_Results folder
 #### Created_for_analysis and saved for visuals and regression
