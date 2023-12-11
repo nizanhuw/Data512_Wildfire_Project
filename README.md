@@ -28,7 +28,7 @@ The course project entails an in-depth examination of the repercussions of wildf
 The western United States has experienced an increasing frequency of summers marked by wildfires, resulting in smoke spreading across numerous western states. Various factors have been suggested as potential causes, including climate change, U.S. forestry policies, and heightened awareness. The ultimate objective is to provide valuable insights to policymakers, city administrators, city councils, and other civic institutions, enabling them to make well-informed decisions regarding developing strategies to mitigate future wildfire impacts. As part of this project, I looked into Idaho and Coeur d'Alene annually from 1936 to the present. 
 
 ### Professor License:
-These code examples were developed by Dr. David W. McDonald for use in DATA 512,
+Dr. David W. McDonald developed these code examples for use in DATA 512,
 a course in the UW MS Data Science degree program. 
 These code files were provided under the Creative Commons CC-BY license. 
 Revision 1.2 - August 14, 2023" :
@@ -40,25 +40,24 @@ https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-po
   
 -	AQI air quality pull request example: Google Collab link that provides an example of requesting an AQI page view request. https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view
 
--	Wildfire USGS reader example: zip file containing functions to help read the UTF-source code of USGS file. The Reader.py was used in my code, which is located in the preliminary_data/Reader.py directory path. https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view
+-	Wildfire USGS reader example: zip file containing functions to help read the UTF-source code of USGS file. The Reader.py was used in my code, located in the preliminary_data/Reader.py directory path. https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view
   
 -	Delegation of city Coeur d’Alene: The spreadsheet contains the designated city chosen for the Wildfire project.  https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit#gid=1247370552
 
 #### USGS:
-United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. Data file titled: USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city in located in directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json.
-Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
-![image](https://github.com/nizanhuw/Data512_Wildfire_Project/assets/122130136/61706de3-0d34-444d-849a-3b5437074a7d)
+United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. The data file titled USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city located in the directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json. Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
 
 #### MLA Citations :
-I also used  GEEKS FOR GEEKS as an mla citation:
+I also used  GEEKS FOR GEEKS as an MLA citation:
 “Matplotlib Tutorial.” GeeksforGeeks, 22 Jun. 2023. https://www.geeksforgeeks.org/matplotlib-tutorial/#. Accessed 7 Nov. 2023. 
 
-
-## The intermediate data folder contains two subset folders:
-#### Preliminary_downloads 
+## The intermediate data folder contains two types:
+#### Preliminary_downloads
+files downloaded from direct websites: USGS 
 - Title: USGS_Wildland_Fire_Combined_Dataset.json
+wildfire zip utilized to run ipynb files in part 1
 -  Reader.py (Instructor object class) Taken from the
--  
+
   This contains the
 #### Created_for_anlysis
 - coeur_smoke_estimate_df.csv :
@@ -99,6 +98,9 @@ This file contains
 This file contains 
 
 ## Limitations 
+-  AQI particulate and gaseous (not used because it had only 10 rows) contained very little to no data, so averages were filed where null positions were seen.
+- Code run time for Project Part 1 files takes 3+ hours per file. 
+- USGS JSON file downloads take 1+ hour to cultivate download and place in subset JSON files to be read in part 1 of the project.
+- Parts 2-3 of the implementation analysis contain data scarcity, so the results of all regressions do not have fully linear covariance assumptions.
 
- List any known issues or special considerations with the data that would be useful for another researcher to know:
-Collab collapsed when running the reader object once, requiring me to switch to ipynb files. Also, additional AQI particulate and (Gaseous was not used had only 10 rows) contained very little to no data so averages were filed null positions. 
+ 
