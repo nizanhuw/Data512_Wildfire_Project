@@ -76,7 +76,8 @@ Idaho_Coeur_d'Alene_Fires[2].json
 
 #### Created_for_analysis
 - coeur_smoke_estimate_df.csv : Columns
->`Fire_Year`: the object from 163 to 2022 of wildfires 
+>`Fire_Year`: the object from 163 to 2022 of wildfires
+>
 >`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
 >`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
 >`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
