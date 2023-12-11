@@ -32,8 +32,13 @@ This open-source information provided by https://www.airnow.gov/
 - United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. The data file titled USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city located in the directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json. Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
 
 #### MLA Citations :
-I also used  GEEKS FOR GEEKS as an MLA citation:
+- I also used  GEEKS FOR GEEKS as an MLA citation:
 “Matplotlib Tutorial.” GeeksforGeeks, 22 Jun. 2023. https://www.geeksforgeeks.org/matplotlib-tutorial/#. Accessed 7 Nov. 2023. 
+
+- For the Data Descriptions from USGS_Wildland_Fire_Combined_Dataset.json
+“Combined Wildland Fire Datasets for the United States and Certain Territories, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog.” Www.sciencebase.gov, www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81. Accessed 11 Dec. 2023.
+
+‌
 
 
 ## Instructions:
@@ -68,12 +73,13 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Intermediate_data folder 
 #### Preliminary_downloads
 
-- USGS_Wildland_Fire_Combined_Dataset.json [Includes more than 35 + columns dictated columns collected] *Date Description taken from USGS MEDA_DATA in MLA CITAION* `Columns`
-  >`OBJECTID`: Unique identification for the polygon and it's attributes.
+- USGS_Wildland_Fire_Combined_Dataset.json [Includes more than 15 + columns dictated columns collected] *Date Description taken from Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog*`Columns`
+
+>`OBJECTID`: Unique identification for the polygon and its attributes.
 >
->`USGS_Assigned_ID`: Assigned unique identification for the polygon and it's attributes. 
+>`USGS_Assigned_ID`: A unique identification was assigned for the polygon and its attributes. 
 >
->`Assigned_Fire_Type`:  assigned fire type : Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire
+>`Assigned_Fire_Type`:  assigned fire type: Wildfire, Likely Wildfire, Unknown - Likely Wildfire, Prescribed Fire, Unknown - Likely Prescribed Fire
 >
 >`Fire_Year`: The calendar year when the dataset creators determined the fire occurred
 >
@@ -141,13 +147,13 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Report Results contain the following files: 
 
 #### Common Analysis Part 1: 
-- 'Wildfire estimates and AQI from Idaho, Coeur d'Alene.png'
+- [Wildfire estimates and AQI from Idaho, Coeur d'Alene.png]
 This file contains the Wildfire estimates and AQI from Idaho Coeur d'Alene
-- 'total acres burned per year from Idaho, Coeur d'Alene.png'
+- [total acres burned per year from Idaho, Coeur d'Alene.png]
 This file contains the total acres burned per year from Idaho, Coeur d'Alene.png
-- 'Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png'
+- '[Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png']
 This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
-- 'Common_analyis_part1_reflection.pdf;
+- ['Common_analyis_part1_reflection.pdf]
   This pdf file contains the Common_analyis_part1_reflectio
   
 #### Common Analysis Part 3 implementation 
