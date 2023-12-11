@@ -27,18 +27,15 @@ The source code folder contains the following ipynb files to run in a specific o
 The course project entails an in-depth examination of the repercussions of wildfires on a specific U.S. city.
 The western United States has experienced an increasing frequency of summers marked by wildfires, resulting in smoke spreading across numerous western states. Various factors have been suggested as potential causes, including climate change, U.S. forestry policies, and heightened awareness. The ultimate objective is to provide valuable insights to policymakers, city administrators, city councils, and other civic institutions, enabling them to make well-informed decisions regarding developing strategies to mitigate future wildfire impacts. As part of this project, I looked into Idaho and Coeur d'Alene annually from 1936 to the present. 
 
-## Professors License:
-Thanks to the notebooks used :
-- https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view?usp=sharing 
-- https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view?usp=sharing
-These code examples were developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program.
-These code files were provided under the Creative Commons CC-BY license. Revision 1.2 - August 14, 2023"
-
-#### Link to all relevant API documentation URLS: 
-https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
-https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit?usp=drive_link
-https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view?usp=sharing
-https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf
+## Professor License:
+These code examples were developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. These code files were provided under the Creative Commons CC-BY license. Revision 1.2 - August 14, 2023"
+-	Delegation of city Coeur d’ Alene: Spreadsheet contains the designated city chosen for the Wildfire project
+https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit#gid=1247370552
+-	Calculating geo proximity example: Google Collab link  that provides an example of how to calculate the geographical proximity from a location  https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view
+-	AQI air quality pull request example: Google Collab link that provides an example of requesting an AQI page view request. https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view
+-	Wildfire USGS reader example: zip file containing functions to help read the UTF-source code of USGS file. The Reader.py was used in my code, which is located in the preliminary_data/Reader.py directory path. https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view
+-	Delegation of city Coeur d’Alene: The spreadsheet contains the designated city chosen for the Wildfire project.  https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit#gid=1247370552
+![image](https://github.com/nizanhuw/Data512_Wildfire_Project/assets/122130136/177f75db-6b74-4a7f-9bfc-583a3a37098a)
 
 #### MLA Citations :
 I also used  GEEKS FOR GEEKS as an mla citation:
