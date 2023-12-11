@@ -195,7 +195,7 @@ The `source code folder` contains the following ipynb files to run in a specific
 >
 >`AQI`: the list of daily AQIs as n float 64
 
--**cleaned_NACIS72_df.csv** Food and Accomdiation Servies `columns`
+- **cleaned_NACIS72_df.csv** Food and Accomdiation Servies `columns`
 >`Number of employees`: the number of employees in a workplace.
 >
 >`Number of Establishments`: the state's business amount.
@@ -210,7 +210,7 @@ The `source code folder` contains the following ipynb files to run in a specific
 >`Annual Real GDP`:    the real annual GDP in millions annually   float64
   
 
--**NAICs71_cleaned.csv** Arts Entertainment and Recreation `columns`
+- **NAICs71_cleaned.csv** Arts Entertainment and Recreation `columns`
 >`Number of employees`: the number of employees in a workplace.
 >
 >`Number of Establishments`: the state's business amount.
@@ -249,7 +249,9 @@ This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
 - **NAICS_71_EDA.png**
   The Visual showcasing the Exploratory analysis from NACIS 71 data set
 - **NAICS_71_regression.png**
-  The Visual showcasing of the regression results in arts, entertainment and recreation 
+  The Visual showcasing of the regression results in arts, entertainment, and recreation
+- **NAICS_72_EDA.png**
+  The Visual showcasing the Exploratory analysis from NACIS 72 data set
 - **NAICS_72_regression.png**
   The visual showcasing the regression results in accommodation and food services 
 
