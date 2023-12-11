@@ -73,7 +73,8 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Intermediate_data folder 
 #### Preliminary_downloads
 
-- **USGS_Wildland_Fire_Combined_Dataset.json** [Includes more than 15 + columns dictated columns collected] *Date Description taken from Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog*`Columns`
+- **USGS_Wildland_Fire_Combined_Dataset.json** [Includes more than 15 + columns dictated columns collected]
+  Date Description is taken from: Combined Wildland Fire Datasets for the United States and Certain Territories metadata, 1800s-Present (Combined Wildland Fire Polygons) - ScienceBase-Catalog. `Columns`:
 
 >`OBJECTID`: Unique identification for the polygon and its attributes.
 >
@@ -91,7 +92,7 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`GIS_Hectares`: The GIS calculated hectares of the fire polygon 
 >
->`Listed_Fire_Types`: The number of features that contributed to the specific fire type are in parentheses after the fire type.
+>`Listed_Fire_Types`: The number of features contributing to the specific fire type is in parentheses after the fire type.
 >
 >`Circle_Flag`:An ArcGIS Tabulate Intersection Tool was used to identify areas that burned with >10% overlap of the current fire within 1 or 2 years of the current burn 
 >
@@ -124,10 +125,30 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
 
-- **Idaho_nacis_code72.csv**
-  
-- **NAICS_71.csv**
+- **Idaho_nacis_code72.csv** Food and Accomdiation Servies `columns`
+>`Number of employees`: the number of employees in a workplace.
+>
+>`Number of Establishments`: the amount of business in the state.
+>`year`: the annual date from 1978 to 2020.
+>
+> `Net Job Creation`: Rate of job creation net within the last 12 months. 
+>
+>`Rate of Job loss`: Rate of net job loss within the last 12 months. 
+>
+
+- **NAICS_71.csv** Arts Entertainment and Recreation `columns`
+>`Number of employees`: the number of employees in a workplace.
+>
+>`Number of Establishments`: the amount of business in the state.
+>`year`: the date annual from 1978 to 2020.
+>
+> `Net Job Creation`: Rate of job creation net within the last 12 months. 
+>
+>`Rate of Job loss`: Rate of net job loss within the last 12 months. 
+>
+
 - **Real_GDP_NAICS72.csv**
+- 
 - **real_GDP_NAICS71.csv**
   
 ## Data_Results folder
