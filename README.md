@@ -5,6 +5,7 @@ The course project entails an in-depth examination of the repercussions of wildf
 The western United States has experienced an increasing frequency of summers marked by wildfires, resulting in smoke spreading across numerous western states. Various factors have been suggested as potential causes, including climate change, U.S. forestry policies, and heightened awareness. The ultimate objective is to provide valuable insights to policymakers, city administrators, city councils, and other civic institutions, enabling them to make well-informed decisions regarding developing strategies to mitigate future wildfire impacts. As part of this project, I looked into Idaho and Coeur d'Alene annually from 1936 to the present. 
 
 ## License, USGS, and AQI Information: 
+
 #### Professor License:
 Dr. David W. McDonald developed these code examples for use in DATA 512,
 a course in the UW MS Data Science degree program. 
@@ -63,10 +64,20 @@ The source code folder contains the following ipynb files to run in a specific o
 
 ## The intermediate data folder contains two types:
 #### Preliminary_downloads
-files downloaded from direct websites: USGS 
-- Title: USGS_Wildland_Fire_Combined_Dataset.json
-wildfire zip utilized to run ipynb files in part 1
--  Reader.py (Instructor object class) Taken from the
+
+- USGS_Wildland_Fire_Combined_Dataset.json
+  Fields in the JSON file:
+  Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+  
+  USGS_Assigned_ID	|Fire_Year|Fire_Polygon_Tier|	GIS_Acres	GIS_Hectares|	Circleness_Scale|Circle_Flag|Shape_Length|Shape_Area|Shortest_distance	| Average_distance
+  --- | --- | ---|--- | --- | ---|--- | --- | ---
+  1 | 2 | 3|1 | 2 | 3|1 | 2 | 3
+
+
+-  Reader.py: Instructor's object class from the Wildfire.py 
 
   This contains the
 #### Created_for_anlysis
