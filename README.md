@@ -44,7 +44,8 @@ This open-source information provided by https://www.airnow.gov/
 ## Instructions:
 
 ### For Common Analysis Part 1 
-Please utilize the link to the ipynb file running all modules in the Source code folder:
+Please utilize the link to the ipynb file running all modules in the Source code folder please import the path from the correct directory listed 
+to run all modules requiring data to be loaded:
 
 The `source code folder` contains the following ipynb files to run in a specific order:
 - Reader.py: Instructor's python `object` function from the Wildfire.zip to read in USGS GEO called and imported in     
