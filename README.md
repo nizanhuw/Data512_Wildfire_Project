@@ -1,37 +1,11 @@
 # Data512_Wildfire_Project
 
-
-## Instructions:
-
-### For Common Analysis Part 1 
-Please utilize the link to the ipynb file running all modules in the Source code folder:
-
-The source code folder contains the following ipynb files to run in a specific order:
-- Please run this first: Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
-  This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset.json in the preliminary folder.
-  This collects information from these files to produce coeur_smoke_estimate_df.csv in the resulting data. Creates smoke estimations
-  for Coeur D'Alene moke estimations and files used to collect an AQI. 
-  
-- Then secondly run: AQI_Request_Howard.ipynb
-  This file contains the .ipyb. It requests a daily summary view count of an AQI page from 1984 to the present, creating particulate_aqi.csv in 
-  preliminary data. In addition, it reads in coeur_smoke_estimate_df.csv to create visuals to compare the AQI result and the smoke estimations for  
-  predicted future years using linear regression found in report results directory. 
-  
-- Per assignment instructions, please read Common_analyis_part1_reflection.pdf in the report results directory.
-  The report contains overall findings from the visuals, thoughts, and collaboration feedback. 
-  
-### For Common Analysis Part 3 (Implementation)
-- Please Run .... file in the source code results
-  This file contains
-  
-- Please read the .pdf in the report results folder
-  This file contains
-  
-### Goal: Coeur d'Alene
+## Goal: Coeur d'Alene, Idaho 
 The course project entails an in-depth examination of the repercussions of wildfires on a specific U.S. city.
 The western United States has experienced an increasing frequency of summers marked by wildfires, resulting in smoke spreading across numerous western states. Various factors have been suggested as potential causes, including climate change, U.S. forestry policies, and heightened awareness. The ultimate objective is to provide valuable insights to policymakers, city administrators, city councils, and other civic institutions, enabling them to make well-informed decisions regarding developing strategies to mitigate future wildfire impacts. As part of this project, I looked into Idaho and Coeur d'Alene annually from 1936 to the present. 
 
-### Professor License:
+## License, USGS, and AQI Information: 
+#### Professor License:
 Dr. David W. McDonald developed these code examples for use in DATA 512,
 a course in the UW MS Data Science degree program. 
 These code files were provided under the Creative Commons CC-BY license. 
@@ -59,6 +33,33 @@ This open-source information provided by https://www.airnow.gov/
 #### MLA Citations :
 I also used  GEEKS FOR GEEKS as an MLA citation:
 “Matplotlib Tutorial.” GeeksforGeeks, 22 Jun. 2023. https://www.geeksforgeeks.org/matplotlib-tutorial/#. Accessed 7 Nov. 2023. 
+
+
+## Instructions:
+
+### For Common Analysis Part 1 
+Please utilize the link to the ipynb file running all modules in the Source code folder:
+
+The source code folder contains the following ipynb files to run in a specific order:
+- Please run this first: Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
+  This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset.json in the intermediate_data folder.
+  This collects information from these files to produce coeur_smoke_estimate_df.csv in the Data_Results folder. Creates smoke estimations
+  for Coeur D'Alene moke estimations and files used to collect an AQI. 
+  
+- Then secondly run: AQI_Request_Howard.ipynb
+  This file contains the .ipyb. It requests a daily summary view count of an AQI page from 1984 to the present, creating particulate_aqi.csv in 
+  Intermediate_data folder. In addition, it reads in coeur_smoke_estimate_df.csv to create visuals to compare the AQI result and the smoke estimations 
+  for predicted future years using linear regression found in the Report_Results directory. 
+  
+- Per assignment instructions, please read Common_analyis_part1_reflection.pdf in the Report_Results directory.
+  The report contains overall findings from the visuals, thoughts, and collaboration feedback. 
+  
+### For Common Analysis Part 2-3 (Implementation)
+- Please Run .... file in the source code results
+  This file contains
+  
+- Please read the .pdf in the report results folder
+  This file contains
 
 ## The intermediate data folder contains two types:
 #### Preliminary_downloads
