@@ -147,13 +147,13 @@ The source code folder contains the following ipynb files to run in a specific o
 ## Report Results contain the following files: 
 
 #### Common Analysis Part 1: 
-- [Wildfire estimates and AQI from Idaho, Coeur d'Alene.png]
+- **Wildfire estimates and AQI from Idaho, Coeur d'Alene.png**:
 This file contains the Wildfire estimates and AQI from Idaho Coeur d'Alene
-- [total acres burned per year from Idaho, Coeur d'Alene.png]
+- **total acres burned per year from Idaho, Coeur d'Alene.png**:
 This file contains the total acres burned per year from Idaho, Coeur d'Alene.png
-- '[Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png']
+- **Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png'**:
 This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
-- ['Common_analyis_part1_reflection.pdf]
+- **'Common_analyis_part1_reflection.pdf**:
   This pdf file contains the Common_analyis_part1_reflectio
   
 #### Common Analysis Part 3 implementation 
