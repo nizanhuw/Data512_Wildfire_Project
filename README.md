@@ -62,7 +62,7 @@ The source code folder contains the following ipynb files to run in a specific o
 - Please read the .pdf in the report results folder
   This file contains
 
-## The intermediate data folder contains two types:
+## Intermediate_data folder 
 #### Preliminary_downloads
 
 - USGS_Wildland_Fire_Combined_Dataset.json
@@ -72,32 +72,37 @@ Idaho_Coeur_d'Alene_Fires[o].json
 Idaho_Coeur_d'Alene_Fires[1].json
 Idaho_Coeur_d'Alene_Fires[2].json
 
--  Reader.py: Instructor's python object class from the Wildfire.zip to read in USGS GEO
+> Reader.py: Instructor's python `object` function from the Wildfire.zip to read in USGS GEO
 
-#### Created_for_analysis
-- coeur_smoke_estimate_df.csv : Columns
+## Data_Results folder
+#### Created_for_analysis and saved for visuals and regression
+- coeur_smoke_estimate_df.csv : `Columns`
 >`Fire_Year`: the object from 163 to 2022 of wildfires
 >
 >`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
+>
 >`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
+>
 >`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
+>
 >`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
 
-- particulate_aqi.csv
->`year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
+- particulate_aqi.csv: `Columns`
+>` year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
+>
 >`AQI`: the list of daily AQIs as n float 64
 
 ## Report Results contain the following files: 
 
 #### Common Analysis Part 1: 
--Wildfire estimates and AQI from Idaho, Coeur d'Alene.png
-This file contains the 
--total acres burned per year from Idaho, Coeur d'Alene.png
-This file contains the 
-- Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
-This file contains 
-- Common_analyis_part1_reflection.pdf
-  This pdf file contaisn
+- 'Wildfire estimates and AQI from Idaho, Coeur d'Alene.png'
+This file contains the Wildfire estimates and AQI from Idaho Coeur d'Alene
+- 'total acres burned per year from Idaho, Coeur d'Alene.png'
+This file contains the total acres burned per year from Idaho, Coeur d'Alene.png
+- 'Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png'
+This file contains Number_of_Wild_Fires_Annually_from_Idaho,_Couer_d'Alene.png
+- 'Common_analyis_part1_reflection.pdf;
+  This pdf file contains the Common_analyis_part1_reflectio
   
 #### Common Analysis Part 3 implementation 
 * Add
