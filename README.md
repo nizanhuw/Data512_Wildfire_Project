@@ -128,7 +128,8 @@ The source code folder contains the following ipynb files to run in a specific o
 - **Idaho_nacis_code72.csv** Food and Accomdiation Servies `columns`
 >`Number of employees`: the number of employees in a workplace.
 >
->`Number of Establishments`: the amount of business in the state.
+>`Number of Establishments`: the state's business amount.
+>
 >`year`: the annual date from 1978 to 2020.
 >
 > `Net Job Creation`: Rate of job creation net within the last 12 months. 
@@ -139,7 +140,8 @@ The source code folder contains the following ipynb files to run in a specific o
 - **NAICS_71.csv** Arts Entertainment and Recreation `columns`
 >`Number of employees`: the number of employees in a workplace.
 >
->`Number of Establishments`: the amount of business in the state.
+>`Number of Establishments`: the state's business amount.
+>
 >`year`: the date annual from 1978 to 2020.
 >
 > `Net Job Creation`: Rate of job creation net within the last 12 months. 
@@ -147,12 +149,28 @@ The source code folder contains the following ipynb files to run in a specific o
 >`Rate of Job loss`: Rate of net job loss within the last 12 months. 
 >
 
-- **Real_GDP_NAICS72.csv**
-- 
-- **real_GDP_NAICS71.csv**
+- **Real_GDP_NAICS72.csv** Food and Accomdiation Servies `columns`
+>`Real_GDP_Quaterly`: the real annual GDP in millions quarterly     float64
+>
+>`Quarter`:  the quarter out of 4 in which the GDP amount is calculated              object
+>
+>`Date`:  the date, month, day, year              object
+>
+>`Annual Real GDP`:    the real annual GDP in millions annually   float64
+
+- **real_GDP_NAICS71.csv** Arts Entertainment and Recreation `columns`
+>`Real_GDP_Quaterly`: the real annual GDP in millions quarterly     float64
+>
+>`Quarter`:  the quarter out of 4 in which the GDP amount is calculated              object
+>
+>`Date`:  the date, month, day, year              object
+>
+>`Annual Real GDP`:    the real annual GDP in millions annually   float64
   
 ## Data_Results folder
+
 #### Created_for_analysis and saved for visuals and regression
+
 - **coeur_smoke_estimate_df.csv** : `Columns`
 >`Fire_Year`: the object from 163 to 2022 of wildfires
 >
@@ -169,8 +187,34 @@ The source code folder contains the following ipynb files to run in a specific o
 >
 >`AQI`: the list of daily AQIs as n float 64
 
-- n
-- n
+-**cleaned_NACIS72_df.csv** Food and Accomdiation Servies `columns`
+>`Number of employees`: the number of employees in a workplace.
+>
+>`Number of Establishments`: the state's business amount.
+>`year`: the date annual from 1978 to 2020.
+>
+> `Net Job Creation`: Rate of job creation net within the last 12 months. 
+>
+>`Rate of Job loss`: Rate of net job loss within the last 12 months. 
+>
+>`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
+>
+>`Annual Real GDP`:    the real annual GDP in millions annually   float64
+  
+
+-**NAICs71_cleaned.csv** Arts Entertainment and Recreation `columns`
+>`Number of employees`: the number of employees in a workplace.
+>
+>`Number of Establishments`: the state's business amount.
+>`year`: the date annual from 1978 to 2020.
+>
+> `Net Job Creation`: Rate of job creation net within the last 12 months. 
+>
+>`Rate of Job loss`: Rate of net job loss within the last 12 months. 
+>
+>`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
+>
+>`Annual Real GDP`:    the real annual GDP in millions annually   float64
   
 
 ## Report Results contain the following files: 
