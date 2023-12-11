@@ -8,13 +8,17 @@ Please utilize the link to the ipynb file running all modules in the Source code
 
 The source code folder contains the following ipynb files to run in a specific order:
 - Please run this first: Wild_fire_aquisition_and_Smoke_Estimate_Howard.ipynb
-  This file contains
+  This file contains the process of collecting reader.py and USGS_Wildland_Fire_Combined_Dataset.json in the preliminary folder.
+  This collects information from these files to produce coeur_smoke_estimate_df.csv in the resulting data. Creates smoke estimations
+  for Coeur D'Alene moke estimations and files used to collect an AQI. 
   
 - Then secondly run: AQI_Request_Howard.ipynb
-  This file contains
+  This file contains the .ipyb. It requests a daily summary view count of an AQI page from 1984 to the present, creating particulate_aqi.csv in 
+  preliminary data. In addition, it reads in coeur_smoke_estimate_df.csv to create visuals to compare the AQI result and the smoke estimations for  
+ predicted future years using linear regression. 
   
-- Also, per assignment instructions, please read Common_analyis_part1_reflection.pdf in the report results
-  The report contains 
+- Per assignment instructions, please read Common_analyis_part1_reflection.pdf in the report results directory.
+  The report contains overall findings from the visuals, thoughts, and collaboration feedback. 
   
 ### For Common Analysis Part 3 (Implementation)
 - Please Run .... file in the source code results
@@ -44,8 +48,13 @@ https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-po
   
 -	Delegation of city Coeur d’Alene: The spreadsheet contains the designated city chosen for the Wildfire project.  https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit#gid=1247370552
 
+#### AQI:
+- The US Environmental Protection Agency (EPA) Air Quality Service (AQS) API. https://docs.airnowapi.org/ 
+This is a historical API and does not provide real-time air quality data. Page requests were utilized to collect the AQI particle index. 
+This open-source information provided by https://www.airnow.gov/
+
 #### USGS:
-United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. The data file titled USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city located in the directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json. Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
+- United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. The data file titled USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city located in the directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json. Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
 
 #### MLA Citations :
 I also used  GEEKS FOR GEEKS as an MLA citation:
