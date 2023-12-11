@@ -66,38 +66,25 @@ The source code folder contains the following ipynb files to run in a specific o
 #### Preliminary_downloads
 
 - USGS_Wildland_Fire_Combined_Dataset.json
-  Fields in the JSON file:
-  Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-  
-  USGS_Assigned_ID	|Fire_Year|Fire_Polygon_Tier|	GIS_Acres	GIS_Hectares|	Circleness_Scale|Circle_Flag|Shape_Length|Shape_Area|Shortest_distance	| Average_distance
-  --- | --- | ---|--- | --- | ---|--- | --- | ---
-  1 | 2 | 3|1 | 2 | 3|1 | 2 | 3
-
-
--  Reader.py: Instructor's object class from the Wildfire.py 
-
-  This contains the
-#### Created_for_anlysis
-- coeur_smoke_estimate_df.csv :
-[ Fire_Year: the object from 163 to 2022 of wild fires 
-GIS_Acres: the polygyon gis area in float 64 from 1963 to 2022
-Shortest_distance: the shortest distance from the constraint of 1250 miles float 64 object from 1963 to 2022
-Average_distance: the average distance from the 1250 miles limit constraint in float 64
-Smoke_estimate: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
- ]
-- Idaho_Coeur_d'Alene_Fires.csv Geo pull request
+- Idaho_Coeur_d'Alene_Fires.csv 
 - subsets:
 Idaho_Coeur_d'Alene_Fires[o].json
 Idaho_Coeur_d'Alene_Fires[1].json
 Idaho_Coeur_d'Alene_Fires[2].json
 
+-  Reader.py: Instructor's python object class from the Wildfire.zip to read in USGS GEO
+
+#### Created_for_analysis
+- coeur_smoke_estimate_df.csv :
+`Fire_Year`: the object from 163 to 2022 of wildfires 
+`GIS_Acres`: the polygon gis area in float 64 from 1963 to 2022
+`Shortest_distance`: the shortest distance from the constraint of 1250 miles float 64 objects from 1963 to 2022
+`Average_distance`: the average distance from the 1250 miles limit constraint in float 64
+`Smoke_estimate`: The smoke estimate of fires for my city from 1963 to 2022 float64 the formula (area/distance)^squared
 
 - particulate_aqi.csv
-[year month : the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
- AQI : the list of daily AQI's as n float 64]
+`year month`: the attempted particle year from 1963 to 2023 written a "year-month-day" as a string
+ `AQI`: the list of daily AQIs as n float 64
 
 ## Report Results contain the following files: 
 
