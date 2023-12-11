@@ -27,7 +27,7 @@ The source code folder contains the following ipynb files to run in a specific o
 The course project entails an in-depth examination of the repercussions of wildfires on a specific U.S. city.
 The western United States has experienced an increasing frequency of summers marked by wildfires, resulting in smoke spreading across numerous western states. Various factors have been suggested as potential causes, including climate change, U.S. forestry policies, and heightened awareness. The ultimate objective is to provide valuable insights to policymakers, city administrators, city councils, and other civic institutions, enabling them to make well-informed decisions regarding developing strategies to mitigate future wildfire impacts. As part of this project, I looked into Idaho and Coeur d'Alene annually from 1936 to the present. 
 
-## Professor License:
+### Professor License:
 These code examples were developed by Dr. David W. McDonald for use in DATA 512,
 a course in the UW MS Data Science degree program. 
 These code files were provided under the Creative Commons CC-BY license. 
@@ -39,11 +39,15 @@ https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-po
 -	Calculating geo proximity example: Google Collab link  that provides an example of how to calculate the geographical proximity from a location  https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view
   
 -	AQI air quality pull request example: Google Collab link that provides an example of requesting an AQI page view request. https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view
--	
+
 -	Wildfire USGS reader example: zip file containing functions to help read the UTF-source code of USGS file. The Reader.py was used in my code, which is located in the preliminary_data/Reader.py directory path. https://drive.google.com/file/d/1TwCkvdaw0MxJzW7NSDg6XxYQ0dvaS44I/view
   
 -	Delegation of city Coeur d’Alene: The spreadsheet contains the designated city chosen for the Wildfire project.  https://docs.google.com/spreadsheets/d/1cmTW5fgU3KyH6JbrRao-qWjzu2GovKk_BkA7a-poGFw/edit#gid=1247370552
 
+#### USGS:
+United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. Data file titled: USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city in located in directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json.
+Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
+![image](https://github.com/nizanhuw/Data512_Wildfire_Project/assets/122130136/61706de3-0d34-444d-849a-3b5437074a7d)
 
 #### MLA Citations :
 I also used  GEEKS FOR GEEKS as an mla citation:
