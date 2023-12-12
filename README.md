@@ -31,6 +31,10 @@ This open-source information provided by https://www.airnow.gov/
 #### USGS:
 - United States Geological Survey USGS Combined wildland fire datasets for the United States and certain territories, 1800s-Present (combined wildland fire polygons) is an open-source US public domain dataset containing the comprehensive data set of fires of polygon and attributes. The data file titled USGS_Wildland_Fire_Combined_Dataset.json is Coeur D’ Alene city located in the directory path preliminary_data USGS_Wildland_Fire_Combined_Dataset.json. Link: https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81
 
+#### US Census Bureau Data: 
+- The U.S. Census Bureau is a public domain and states that licensing follows as of 2016. The US government employees created the software and, therefore, are not subject to copyright in the United States. Further stating that the rights are according to the United States Department of Commerce grants to a user nonexclusive license to use, copy, and create derived works.
+
+
 #### MLA Citations :
 - I also used  GEEKS FOR GEEKS as an MLA citation:
 “Matplotlib Tutorial.” GeeksforGeeks, 22 Jun. 2023. https://www.geeksforgeeks.org/matplotlib-tutorial/#. Accessed 7 Nov. 2023. 
